@@ -32,7 +32,7 @@ npm run dev
 
 ### Endpoints
 - Default URL: **http://localhost:5050/api/**
-- `GET /`: Retorna o Status: 200 e uma Mensagem "Fullstack Challenge 20201026"
+- `GET /`: Retorna o Status: 200 e uma Mensagem "API ROOT ⚡️"
 - `GET /products/:id`: Obter a informação somente de um produto;
 - `GET /products`: Listar todos os produtos da base de dados
   - Parâmetros
