@@ -33,7 +33,7 @@ app.use(morgan('dev')); // ? Server Logger
 
 //* ROUTES *//
 app.get('/api', (req, res) => {
-  res.status(200).json({ message: 'Fullstack Challenge 20201026 ⚡️' });
+  res.status(200).json({ message: 'API ROOT ⚡️' });
 });
 
 app.use('/api/products', productRoutes);
